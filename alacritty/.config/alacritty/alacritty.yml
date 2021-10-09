@@ -37,3 +37,6 @@ colors:
 font:
   size: 10
   family: "Source Code Pro"
+
+shell: 
+  program: /usr/bin/fish
