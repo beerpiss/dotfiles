@@ -24,7 +24,7 @@ font-2 = MaterialIcons:size=10;3
 font-3 = Termsynu:size=8:antialias=false;1
 
 modules-left = spotify-prev spotify-play-pause spotify-next spotify 
-modules-right = openweathermap battery volume backlight wireless-network wired-network date-with-lunar powermenu
+modules-right = openweathermap battery mobile-battery volume backlight wireless-network wired-network date-with-lunar powermenu
 
 enable-ipc = true
 
@@ -337,5 +337,10 @@ click-left = playerctl play-pause
 type = custom/script
 exec = echo ""
 format = <label>
-click-left = playerctl next 
+click-left = playerctl next
+
+[module/mobile-battery]
+type = custom/script
+format-prefix = " "
+exec = ~/.config/scripts/iphone-battery
 ; vim:ft=dosini
