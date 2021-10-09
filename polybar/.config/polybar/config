@@ -303,7 +303,7 @@ interval = 600
 [module/date-with-lunar]
 type = custom/script
 exec =  ~/.config/scripts/date-with-lunar
-interval = 1.0
+interval = 60
 
 [module/now-playing]
 ;type = custom/script
@@ -314,7 +314,7 @@ interval = 1.0
 type = custom/script
 tail = true
 ; prefix symbol is shown before the text
-format-prefix = ""
+format-prefix = "    "
 format = <label>
 exec = ~/.config/scripts/scroll-spotify-status
 
@@ -330,7 +330,6 @@ type = custom/ipc
 hook-1 = echo ""
 hook-0 = echo ""
 initial = 1
-format-padding = 0
 click-left = playerctl play-pause 
 
 [module/spotify-next]
