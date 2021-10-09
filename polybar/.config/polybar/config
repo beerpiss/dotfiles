@@ -322,6 +322,7 @@ exec = ~/.config/scripts/scroll-spotify-status
 type = custom/script
 exec = echo ""
 format = <label>
+format-padding = 1
 click-left = playerctl previous
 
 [module/spotify-play-pause]
