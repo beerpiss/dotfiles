@@ -14,7 +14,7 @@ line-size = 2
 ;tray-position=right
 ;tray-padding=2
 
-;spacing = 2
+spacing = 0.5
 ;padding-right = 5
 module-margin = 1
 
@@ -44,11 +44,11 @@ line-size = 2
 tray-position=right
 tray-padding=2
 
-spacing = 2
-padding-right = 5
-module-margin = 4
+spacing = 0.5
+;padding-right = 5
+module-margin = 1
 
-font-0 = NotoSans-Regular:size=8;1
+font-0 = CascadiaCode-Regular:size=10;1
 font-1 = FontAwesome:size=10;1
 font-2 = MaterialIcons:size=10;3
 font-3 = Termsynu:size=8:antialias=false;1
@@ -253,7 +253,7 @@ wrapping-scroll = false
 
 label-focused = %index%
 label-focused-underline=#a3be8c
-label-focused-padding = 2
+label-focused-padding = 1
 
 label-unfocused = %index%
 label-unfocused-padding = ${self.label-focused-padding}
@@ -287,7 +287,7 @@ format-foreground=#d8dee9
 format-padding=4
 
 label=%title%
-label-maxlen=50
+label-maxlen=70
 
 [module/sxhkd]
 type = custom/script
