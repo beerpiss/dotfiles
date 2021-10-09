@@ -303,7 +303,7 @@ interval = 600
 [module/date-with-lunar]
 type = custom/script
 exec =  ~/.config/scripts/date-with-lunar
-interval = 60
+interval = 1
 
 [module/now-playing]
 ;type = custom/script
