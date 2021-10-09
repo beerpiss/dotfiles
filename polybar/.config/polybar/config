@@ -330,6 +330,7 @@ type = custom/ipc
 hook-1 = echo ""
 hook-0 = echo ""
 initial = 1
+format-padding = 0
 click-left = playerctl play-pause 
 
 [module/spotify-next]
