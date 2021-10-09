@@ -23,8 +23,10 @@ font-1 = FontAwesome:size=10;1
 font-2 = MaterialIcons:size=10;3
 font-3 = Termsynu:size=8:antialias=false;1
 
-modules-left = now-playing 
+modules-left = spotify-prev spotify-play-pause spotify-next spotify 
 modules-right = openweathermap battery volume backlight wireless-network wired-network date-with-lunar powermenu
+
+enable-ipc = true
 
 [bar/bottom]
 monitor = ${env:MONITOR:}
@@ -304,7 +306,34 @@ exec =  ~/.config/scripts/date-with-lunar
 interval = 1.0
 
 [module/now-playing]
+;type = custom/script
+;exec = ~/.config/scripts/now-playing
+;interval = 1.0
+
+[module/spotify]
 type = custom/script
-exec = ~/.config/scripts/now-playing
-interval = 1.0
+tail = true
+; prefix symbol is shown before the text
+format-prefix = ""
+format = <label>
+exec = ~/.config/scripts/scroll-spotify-status
+
+[module/spotify-prev]
+type = custom/script
+exec = echo ""
+format = <label>
+click-left = playerctl previous
+
+[module/spotify-play-pause]
+type = custom/ipc
+hook-0 = echo ""
+hook-1 = echo ""
+initial = 1
+click-left = playerctl play-pause 
+
+[module/spotify-next]
+type = custom/script
+exec = echo ""
+format = <label>
+click-left = playerctl next 
 ; vim:ft=dosini
