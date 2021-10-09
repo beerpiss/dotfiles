@@ -23,6 +23,7 @@ font-1 = FontAwesome:size=10;0
 font-2 = MaterialIcons:size=10;3
 font-3 = Termsynu:size=8:antialias=false;1
 font-4 = Noto Sans Mono CJK JP:size=10;1
+font-5 = Noto Sans Mono CJK CN:size=10;1
 
 modules-left = spotify-prev spotify-play-pause spotify-next spotify 
 modules-right = openweathermap battery mobile-battery volume backlight wireless-network wired-network date-with-lunar powermenu
