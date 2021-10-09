@@ -154,8 +154,10 @@ jq
 jsoncpp
 kdenlive
 leafpad
+libappindicator-gtk2
 libatomic_ops
 libconfig
+libdbusmenu-gtk2
 libdvbpsi
 libdvdcss
 libebml
@@ -164,6 +166,7 @@ libgdiplus
 libgsf
 libgtop
 libimagequant
+libindicator-gtk2
 libmad
 libmatroska
 libmicrodns
@@ -175,6 +178,7 @@ libratbag
 libressl
 libsass
 libspiro
+libstdc++5
 libtommath
 libtool
 libtorrent-rasterbar
@@ -345,6 +349,7 @@ simplescreenrecorder
 sl
 smartmontools
 socat
+sqlcipher
 stfl
 stow
 sudo
