@@ -1,4 +1,3 @@
-[1m[33m ->[0m[0m Avoid running yay as root/sudo.
 accountsservice
 acpi
 acpid
@@ -168,7 +167,6 @@ idevicerestore
 imake
 inetutils
 inkscape
-intel-ucode
 ipw2100-fw
 ipw2200-fw
 iwd
