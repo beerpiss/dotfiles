@@ -14,12 +14,12 @@ line-size = 2
 ;tray-position=right
 ;tray-padding=2
 
-spacing = 2
-padding-right = 5
-module-margin = 4
+;spacing = 2
+;padding-right = 5
+module-margin = 1
 
-font-0 = NotoSans-Regular:size=10;1
-font-1 = FontAwesome:size=10;1
+font-0 = CascadiaCode-Regular:size=10;2
+font-1 = FontAwesome:size=10;0
 font-2 = MaterialIcons:size=10;3
 font-3 = Termsynu:size=8:antialias=false;1
 
@@ -314,15 +314,16 @@ interval = 60
 type = custom/script
 tail = true
 ; prefix symbol is shown before the text
-format-prefix = "    "
+format-prefix = " "
 format = <label>
+label-padding-right = 1
 exec = ~/.config/scripts/scroll-spotify-status
 
 [module/spotify-prev]
 type = custom/script
 exec = echo ""
 format = <label>
-format-padding = 2
+label-padding-left = 1
 click-left = playerctl previous
 
 [module/spotify-play-pause]
