@@ -1,3 +1,5 @@
+export TERM=xterm 
+
 function commit-if-diff
     set previous_wd $PWD
     cd $HOME/dotfiles
