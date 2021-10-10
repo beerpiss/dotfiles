@@ -186,7 +186,6 @@ libxkbcommon-x11
 light-locker
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
-linux
 linux-atm
 linux-firmware
 linux-headers
