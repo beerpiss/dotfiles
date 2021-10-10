@@ -10,5 +10,5 @@ elif [ "$IS_CHARGING" = "false" ]
 then
     printf "%s%%" $BATTERY    
 else 
-    printf "%s%%" $BATTERY
+    printf " %s%%" $BATTERY   
 fi
