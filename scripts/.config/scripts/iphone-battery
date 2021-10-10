@@ -1,10 +1,10 @@
 #!/bin/bash
 
-BATTERY=$(ideviceinfo -q com.apple.mobile.battery | grep BatteryCurrentCapacity | cut -d  " " -f2)
+BATTERY=$(ideviceinfo -q com.apple.mobile.battery -k BatteryCurrentCapacity)
 
 if [ -z "$BATTERY" ]
 then
     echo "not connected"
 else
-    echo $(ideviceinfo -q com.apple.mobile.battery | grep BatteryCurrentCapacity | cut -d  " " -f2) "%" | sed 's/ //g'
+    echo $BATTERY "%" | sed 's/ //g'
 fi
