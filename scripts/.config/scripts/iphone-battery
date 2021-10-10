@@ -7,6 +7,7 @@ if [ "$BATTERY" = "ERROR: No device found!" ]
 then
     echo "not connected"
 elif [ "$IS_CHARGING" = "false"]
+then
     echo $BATTERY "%" | sed 's/ //g'
 else [ "$IS_CHARING" = "true"]
     echo $BATTERY "%"
