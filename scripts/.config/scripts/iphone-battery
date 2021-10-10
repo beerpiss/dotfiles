@@ -8,7 +8,7 @@ then
     echo "not connected"
 elif [ "$IS_CHARGING" = "false" ]
 then
-    echo $BATTERY "%" | sed 's/ //g'
+    printf "%s\%" $BATTERY    
 else 
-    echo $BATTERY "%" | sed 's/ //g'
+    echo "%s\%" $BATTERY
 fi
