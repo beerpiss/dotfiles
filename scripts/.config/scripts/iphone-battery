@@ -1,10 +1,13 @@
 #!/bin/bash
 
 BATTERY=$(ideviceinfo -q com.apple.mobile.battery -k BatteryCurrentCapacity)
+IS_CHARGING=$(ideviceinfo -q com.apple.mobile.battery -k BatteryIsCharging)
 
 if [ "$BATTERY" = "ERROR: No device found!" ]
 then
     echo "not connected"
-else
+elif [ "$IS_CHARGING" = "false"]
     echo $BATTERY "%" | sed 's/ //g'
+else [ "$IS_CHARING" = "true"]
+    echo $BATTERY "%"
 fi
