@@ -14,6 +14,9 @@ end
 # Welcome message
 fortune | cowsay | lolcat
 
+# ssh-agent
+fish_ssh_agent
+
 # Automated commit in case i forgot to commit my dots
 commit-if-diff
 
