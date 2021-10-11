@@ -55,7 +55,6 @@ discord
 dkms
 dmidecode
 dmraid
-dnsmasq
 docbook-xml
 docbook-xsl
 dos2unix
@@ -284,6 +283,7 @@ perl-mime-tools
 perl-net-smtp-ssl
 perl-net-ssleay
 perl-types-serialiser
+pi-hole-ftl
 picom
 piper
 pkgconf
