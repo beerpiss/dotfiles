@@ -283,7 +283,7 @@ perl-mime-tools
 perl-net-smtp-ssl
 perl-net-ssleay
 perl-types-serialiser
-pi-hole-ftl
+pi-hole-server
 picom
 piper
 pkgconf
