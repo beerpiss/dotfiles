@@ -228,6 +228,7 @@ mkinitcpio-nfs-utils
 mlocate
 mono
 mpv
+msr-tools
 mtools
 mupdf
 nano
