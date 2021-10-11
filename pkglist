@@ -411,6 +411,7 @@ wireless_tools
 woeusb
 wpa_supplicant
 wvdial
+x86_energy_perf_policy
 xcb-util-cursor
 xcb-util-image
 xcb-util-keysyms
