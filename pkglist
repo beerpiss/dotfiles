@@ -191,6 +191,7 @@ libxkbcommon-x11
 light-locker
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
+lighttpd
 linux-atm
 linux-firmware
 linux-headers
@@ -283,6 +284,8 @@ perl-mime-tools
 perl-net-smtp-ssl
 perl-net-ssleay
 perl-types-serialiser
+php-cgi
+php-sqlite
 pi-hole-server
 picom
 piper
