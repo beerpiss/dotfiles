@@ -55,6 +55,7 @@ discord
 dkms
 dmidecode
 dmraid
+dnsmasq
 docbook-xml
 docbook-xsl
 dos2unix
@@ -202,6 +203,7 @@ logrotate
 lolcat
 lsb-release
 lshw
+lsof
 lsscsi
 lua
 lua52
@@ -286,7 +288,6 @@ perl-net-ssleay
 perl-types-serialiser
 php-cgi
 php-sqlite
-pi-hole-server
 picom
 piper
 pkgconf
