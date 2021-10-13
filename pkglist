@@ -15,7 +15,6 @@ asciiquarium
 at
 audacity
 autoconf
-autoconf-archive
 automake
 b43-fwcutter
 base
@@ -44,7 +43,6 @@ cpio
 cpupower
 crda
 cronie
-cython
 dconf-editor
 deadbeef
 deadbeef-mpris2-plugin
@@ -173,6 +171,7 @@ libdvdcss
 libebml
 libev
 libgdiplus
+libgeneral
 libgsf
 libgtop
 libimagequant
