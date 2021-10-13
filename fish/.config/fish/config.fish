@@ -84,6 +84,9 @@ abbr cfs "$EDITOR $HOME/dotfiles/sxhkd/.config/sxhkd/sxhkdrc ;and commit-if-diff
 abbr cfnv "$EDITOR $HOME/dotfiles/nvim/.config/nvim/init.vim ;and commit-if-diff" 
 
 
+# abbreviations for saving shsh2 blobs
+abbr saveblobs "tsschecker -d iPhone10,5 -B d211ap -e 0xc646c2468402e -g 0x1111111111111111 -l -s --save-path ~/Documents/beerpsi-iphone-blobs"
+
 # Launch an application using the dedicated GPU and disown the process
 function dgpu
     DRI_PRIME=1 $argv &
