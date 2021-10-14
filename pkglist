@@ -150,7 +150,6 @@ hwdetect
 hwinfo
 i3-gaps
 i7z
-ibus
 ideviceinstaller
 imake
 inetutils
@@ -158,6 +157,7 @@ inkscape
 intel-ucode
 ipw2100-fw
 ipw2200-fw
+iucode-tool
 iwd
 jfsutils
 jp2a
@@ -466,5 +466,6 @@ yasm
 yay
 youtube-dl
 zalo-nativefier
+zoom
 zscroll-git
 zsh
