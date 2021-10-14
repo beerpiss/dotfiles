@@ -92,6 +92,9 @@ for_window [class="^.*"] border pixel 3
 # Force Discord to be in workspace 2 (MSG)
 assign [class="discord"] 2
 
+# Force Zoom dialogs to be floating
+for_window [title="zoom"] floating enable
+
 # gaps
 gaps inner 10
 
