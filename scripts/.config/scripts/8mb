@@ -10,9 +10,13 @@ OUTPUT=~/Videos/8mb/$FILENAME
 VIDEO_LENGTH=$(ffprobe -i $VIDEO_PATH -show_entries format=duration -v quiet -of csv="p=0" | awk '{printf int($1)}')
 VIDEO_SIZE=$(stat -c%s $VIDEO_PATH)
 TOTAL_BITRATE=$((64000/$VIDEO_LENGTH))
+if (( $TOTAL_BITRATE < 128 )); then
+    echo "video too thicc cannot compress"
+    exit 1
+fi
 VIDEO_BITRATE=$(expr $TOTAL_BITRATE - 128)
 
-if (( $VIDEO_SIZE < 8000000)); then
+if (( $VIDEO_SIZE < 8000000 )); then
     echo "why are you doing this, your video is already smol enough"
     exit 1
 fi
