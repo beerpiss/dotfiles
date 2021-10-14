@@ -462,6 +462,7 @@ xorg-xinit
 xorg-xinput
 xorg-xkill
 xorg-xrandr
+xsel
 xss-lock
 yad
 yajl
