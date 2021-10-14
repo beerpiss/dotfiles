@@ -7,8 +7,8 @@ VIDEO_PATH=$1
 FILENAME=$(basename $VIDEO_PATH)
 OUTPUT=~/Videos/8mb/$FILENAME
 
-VIDEO_LENGTH=$(ffprobe -i $VIDEO_PATH -show_entries format=duration -v quiet -of csv="p=0" | awk '{printf int(($1-0.5)}')
-TOTAL_BITRATE=$(expr 64000 / $VIDEO_LENGTH)
+VIDEO_LENGTH=$(ffprobe -i $VIDEO_PATH -show_entries format=duration -v quiet -of csv="p=0" | awk '{printf int($1)}')
+TOTAL_BITRATE=$((64000/$VIDEO_LENGTH))
 VIDEO_BITRATE=$(expr $TOTAL_BITRATE - 128)
 
 ffmpeg -y -i $VIDEO_PATH -c:v libx264 -b:v ${VIDEO_BITRATE}k -pass 1 -f null /dev/null && \
