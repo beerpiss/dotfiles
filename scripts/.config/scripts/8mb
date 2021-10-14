@@ -21,5 +21,5 @@ if (( $VIDEO_SIZE < 8000000 )); then
     echo "why are you doing this, your video is already smol enough"
     exit 1
 fi
-ffmpeg -y -i $VIDEO_PATH -c:v libx264 -speed 3 -b:v ${VIDEO_BITRATE}k -minrate ${VIDEO_BITRATE}k -maxrate ${VIDEO_BITRATE}k -bufsize 128k -pass 1 -f null /dev/null && \
-ffmpeg -i $VIDEO_PATH -c:v libx264 -speed 3 -b:v ${VIDEO_BITRATE}k -minrate ${VIDEO_BITRATE}k -maxrate ${VIDEO_BITRATE}k -bufsize 128k -pass 2 -c:a aac -b:a ${AUDIO_BITRATE}k $OUTPUT
+ffmpeg -y -i $VIDEO_PATH -c:v libx264 -b:v ${VIDEO_BITRATE}k -minrate ${VIDEO_BITRATE}k -maxrate ${VIDEO_BITRATE}k -bufsize 128k -pass 1 -f null /dev/null && \
+ffmpeg -i $VIDEO_PATH -c:v libx264 -b:v ${VIDEO_BITRATE}k -minrate ${VIDEO_BITRATE}k -maxrate ${VIDEO_BITRATE}k -bufsize 128k -pass 2 -c:a aac -b:a ${AUDIO_BITRATE}k $OUTPUT
