@@ -1,6 +1,6 @@
 #!/bin/bash
 # Uses ffmpeg to limit file size of a video to 8MB for Discord uploads.
-
+iFS=$'\n'
 # TODO: Figure out audio bitrate, it is fixed at 128kbps for now
 
 VIDEO_PATH=$1
