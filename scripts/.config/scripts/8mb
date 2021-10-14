@@ -11,6 +11,6 @@ VIDEO_LENGTH=$(ffprobe -v error -show_entries format=duration -of default=noprin
 TOTAL_BITRATE=$(expr 64000 / $VIDEO_LENGTH)
 VIDEO_BITRATE=$(expr $TOTAL_BITRATE - 128)
 
-ffmpeg -y -i $VIDEO_PATH -c:v libx264 -b:v "${VIDEO_BITRATE}k" -pass 1 -f null /dev/null && \
-ffmpeg -i $VIDEO_PATH -c:v libx264 -b:v "${VIDEO_BITRATE}k" -pass 2 -c:a aac -b:a 128k output.mp4
+ffmpeg -y -i $VIDEO_PATH -c:v libx264 -b:v "$(expr 64000 / $VIDEO_LENGTH - 127)k" -pass 1 -f null /dev/null && \
+ffmpeg -i $VIDEO_PATH -c:v libx264 -b:v "$(expr 64000 / $VIDEO_LENGTH - 127)k" -pass 2 -c:a aac -b:a 128k output.mp4
 
