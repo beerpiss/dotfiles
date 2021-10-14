@@ -150,6 +150,7 @@ hwdetect
 hwinfo
 i3-gaps
 i7z
+ibus
 ideviceinstaller
 imake
 inetutils
@@ -171,7 +172,6 @@ libdvdcss
 libebml
 libev
 libgdiplus
-libgeneral
 libgsf
 libgtop
 libimagequant
