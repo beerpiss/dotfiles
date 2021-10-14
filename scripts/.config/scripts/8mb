@@ -7,7 +7,7 @@ VIDEO_PATH=$1
 FILENAME=$(basename $VIDEO_PATH)
 OUTPUT=~/Videos/8mb/$FILENAME
 
-VIDEO_LENGTH=$(ffprobe -i $VIDEO_PATH -show_entries format=duration -v quiet -of csv="p=0")
+VIDEO_LENGTH=$(ffprobe -i $VIDEO_PATH -show_entries format=duration -v quiet -of csv="p=0" | awk '{printf "%.0f", $1}')
 TOTAL_BITRATE=$(expr 64000 / $VIDEO_LENGTH)
 VIDEO_BITRATE=$(expr $TOTAL_BITRATE - 128)
 
