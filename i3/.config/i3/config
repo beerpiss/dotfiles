@@ -34,7 +34,7 @@ exec --no-startup-id sxhkd
 exec --no-startup-id xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Accel Profile Enabled" 0, 1 
 
 # To type Vietnamese
-exec --no-startup-id fcitx
+exec --no-startup-id fcitx -d
 
 # To get alternating layouts (hsplit, vsplit)
 exec --no-startup-id "$scripts_dir/alternating-layouts.py"
