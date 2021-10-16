@@ -64,6 +64,8 @@ docbook-xml
 docbook-xsl
 dos2unix
 dosfstools
+dotnet-runtime
+dotnet-sdk
 double-conversion
 doxygen
 dracut
