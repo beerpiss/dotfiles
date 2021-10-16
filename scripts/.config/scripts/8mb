@@ -3,6 +3,8 @@
 iFS=$'\n'
 # TODO: Figure out audio bitrate, it is fixed at 128kbps for now
 
+MAX_FILE_SIZE=8 #mb
+
 VIDEO_PATH=$1
 FILENAME=$(basename $VIDEO_PATH)
 OUTPUT=~/Videos/8mb/$FILENAME
@@ -11,7 +13,7 @@ AUDIO_BITRATE=128
 
 VIDEO_LENGTH=$(ffprobe -i $VIDEO_PATH -show_entries format=duration -v quiet -of csv="p=0" | awk '{printf int($1)}')
 VIDEO_SIZE=$(stat -c%s $VIDEO_PATH)
-TOTAL_BITRATE=$((64000/$VIDEO_LENGTH))
+TOTAL_BITRATE=$(($MAX_FILE_SIZE*8000/$VIDEO_LENGTH))
 if (( $TOTAL_BITRATE < $AUDIO_BITRATE )); then
     echo "video too thicc cannot compress"
     exit 1
