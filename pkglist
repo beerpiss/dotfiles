@@ -345,6 +345,7 @@ python-setproctitle
 python-twisted
 python-yaml
 python2-psutil
+qemu
 qt5-svg
 qt5-x11extras
 rclone
@@ -413,6 +414,7 @@ usb_modeswitch
 usbutils
 vi
 vim
+virt-manager
 vlc
 vmware-workstation
 vpnc
