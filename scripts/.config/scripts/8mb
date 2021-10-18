@@ -13,7 +13,7 @@ AUDIO_BITRATE=32
 
 VIDEO_LENGTH=$(ffprobe -i $VIDEO_PATH -show_entries format=duration -v quiet -of csv="p=0" | awk '{printf int($1)}')
 VIDEO_SIZE=$(stat -c%s $VIDEO_PATH)
-TOTAL_BITRATE=$((1200/$VIDEO_LENGTH))
+TOTAL_BITRATE=$((1000/$VIDEO_LENGTH))
 if (( $TOTAL_BITRATE < $AUDIO_BITRATE )); then
     echo "video too thicc cannot compress"
     exit 1
