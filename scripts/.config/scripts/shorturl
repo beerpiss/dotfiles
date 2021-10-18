@@ -1,0 +1,3 @@
+#!/bin/bash
+[[ ! -z "$@" ]] && (gh issue create --repo extradummythicc/s --label "cli" --title "$@" --body "" | sed -e 's/github.com\/extradummythicc\/s\/issues/extradummythicc.github.io\/s/g') || (echo "Forgot URL?"; exit 1)
+

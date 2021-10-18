@@ -94,7 +94,7 @@ assign [class="discord"] 2
 
 # Force Zoom dialogs to be floating
 for_window [title="zoom"] floating enable
-
+for_window [title="Upload to Imgur"] floating enable
 # gaps
 gaps inner 10
 
