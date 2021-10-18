@@ -66,8 +66,6 @@ docbook-xml
 docbook-xsl
 dos2unix
 dosfstools
-dotnet-runtime
-dotnet-sdk
 double-conversion
 doxygen
 dracut
@@ -317,6 +315,7 @@ pkgfile
 playerctl
 polybar
 poppler-glib
+powershell
 ppp
 pptpclient
 psensor
