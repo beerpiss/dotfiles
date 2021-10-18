@@ -8,12 +8,12 @@ MAX_FILE_SIZE=8 #mb
 VIDEO_PATH=$1
 FILENAME=$(basename $VIDEO_PATH)
 OUTPUT=~/Videos/8mb/$FILENAME
-AUDIO_BITRATE=128
+AUDIO_BITRATE=64
 
 
 VIDEO_LENGTH=$(ffprobe -i $VIDEO_PATH -show_entries format=duration -v quiet -of csv="p=0" | awk '{printf int($1)}')
 VIDEO_SIZE=$(stat -c%s $VIDEO_PATH)
-TOTAL_BITRATE=$((3200/$VIDEO_LENGTH))
+TOTAL_BITRATE=$((800/$VIDEO_LENGTH))
 if (( $TOTAL_BITRATE < $AUDIO_BITRATE )); then
     echo "video too thicc cannot compress"
     exit 1
