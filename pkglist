@@ -216,6 +216,7 @@ linux-zen-headers
 llvm
 logrotate
 lolcat
+lowdown
 lsb-release
 lshw
 lsof
@@ -375,6 +376,7 @@ simplescreenrecorder
 sl
 smartmontools
 socat
+ssg
 sshfs
 stfl
 stow
