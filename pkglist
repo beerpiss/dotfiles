@@ -179,6 +179,7 @@ kdesu
 leafpad
 libatomic_ops
 libconfig
+libcurl-compat
 libdvbpsi
 libdvdcss
 libebml
