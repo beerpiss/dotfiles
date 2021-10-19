@@ -104,7 +104,6 @@ fsarchiver
 galculator
 garcon
 gcc
-gconf
 gdm
 geany
 geary
@@ -174,6 +173,7 @@ jp2a
 jq
 jsoncpp
 kdenlive
+kdesu
 leafpad
 libatomic_ops
 libconfig
