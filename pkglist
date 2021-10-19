@@ -267,6 +267,7 @@ nghttp2
 nilfs-utils
 ninja
 nodejs
+noise-suppression-for-voice
 noisetorch-bin
 nomacs
 noto-fonts
