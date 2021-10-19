@@ -185,6 +185,7 @@ libdvbpsi
 libdvdcss
 libebml
 libev
+libfragmentzip
 libgdiplus
 libgsf
 libgtop
