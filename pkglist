@@ -180,6 +180,7 @@ leafpad
 libatomic_ops
 libconfig
 libcurl-compat
+libcurl-gnutls
 libdvbpsi
 libdvdcss
 libebml
