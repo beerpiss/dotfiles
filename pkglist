@@ -150,6 +150,7 @@ handbrake
 hardinfo
 haveged
 hdparm
+helvum
 hsetroot
 htop
 http-parser
@@ -311,6 +312,9 @@ php-cgi
 php-sqlite
 picom
 piper
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
 pkgconf
 pkgfile
 playerctl
@@ -321,8 +325,6 @@ ppp
 pptpclient
 psensor
 pulseaudio-alsa
-pulseaudio-bluetooth
-pulseaudio-jack
 pv
 python-anytree
 python-attrs
