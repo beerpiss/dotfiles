@@ -316,6 +316,7 @@ perl-net-ssleay
 perl-types-serialiser
 php-cgi
 php-sqlite
+picard
 picom
 piper
 pipewire-alsa
