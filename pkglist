@@ -2,6 +2,7 @@
 accountsservice
 acpi
 acpid
+adguardhome-bin
 alacritty
 alsa-firmware
 alsa-plugins
@@ -185,7 +186,6 @@ libdvbpsi
 libdvdcss
 libebml
 libev
-libfragmentzip
 libgdiplus
 libgsf
 libgtop
