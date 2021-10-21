@@ -48,8 +48,10 @@ exec --no-startup-id dunst
 # Lock screen when suspend
 exec --no-startup-id light-locker --lock-on-lid --lock-on-suspend --late-locking
 
+# Discord RPC for mpris
+exec "$scripts_dir/mpris-rpc"
 # my eyes need no suffering
-exec --no-startup-id safeeyes
+#exec --no-startup-id safeeyes
 ########################################################################
 # i3 user interface
 ########################################################################
