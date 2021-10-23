@@ -251,6 +251,7 @@ meson
 mkinitcpio-nfs-utils
 mlocate
 mono
+mplayer
 mpv
 msr-tools
 mtools
@@ -402,7 +403,6 @@ sudo
 sxhkd
 sylpheed
 sysfsutils
-taglib-extras
 tcpdump
 terminus-font
 tesseract
@@ -429,6 +429,7 @@ ttf-roboto-mono
 ttf-ubuntu-font-family
 tumbler
 turbostat
+ums
 unicode-emoji
 unrar
 unzip
