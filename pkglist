@@ -76,6 +76,7 @@ dunst
 duperemove
 easyeffects
 ecl
+editorconfig-core-c
 efibootmgr
 efitools
 electron
@@ -86,6 +87,7 @@ ethtool
 evolution
 exfat-utils
 expect
+extra-cmake-modules
 f2fs-tools
 fakeroot
 fcitx
@@ -179,6 +181,10 @@ jq
 jsoncpp
 kdenlive
 kdesu
+kdnssd
+kdoctools
+kparts
+ktexteditor
 leafpad
 libatomic_ops
 libconfig
@@ -225,6 +231,7 @@ linux-zen-headers
 llvm
 logrotate
 lolcat
+loudmouth
 lowdown
 lsb-release
 lshw
@@ -242,6 +249,9 @@ m4
 make
 man-db
 man-pages
+mariadb
+mariadb-clients
+mariadb-libs
 mbedtls
 mc
 mdadm
@@ -317,6 +327,8 @@ perl-mime-tools
 perl-net-smtp-ssl
 perl-net-ssleay
 perl-types-serialiser
+phonon-qt5
+phonon-qt5-gstreamer
 php-cgi
 php-sqlite
 picard
@@ -364,7 +376,9 @@ python-twisted
 python-yaml
 python2-psutil
 qemu
+qt5-script
 qt5-svg
+qt5-tools
 qt5-x11extras
 rclone
 refind
@@ -401,6 +415,7 @@ stow
 sudo
 sxhkd
 sylpheed
+syntax-highlighting
 sysfsutils
 tcpdump
 terminus-font
@@ -408,6 +423,7 @@ tesseract
 tesseract-data-eng
 tesseract-data-vie
 texinfo
+threadweaver
 throttled
 thunar
 thunar-volman
