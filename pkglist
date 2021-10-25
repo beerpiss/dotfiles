@@ -177,6 +177,7 @@ iwd
 jfsutils
 jp2a
 jq
+jre8-openjdk
 jsoncpp
 kdenlive
 kdesu
@@ -256,6 +257,7 @@ mplayer
 mpv
 msr-tools
 mtools
+multidoge
 mupdf
 nano
 nasm
