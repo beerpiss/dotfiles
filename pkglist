@@ -356,6 +356,7 @@ python-evdev
 python-hyperlink
 python-idna
 python-incremental
+python-injector
 python-lxml
 python-mako
 python-markupsafe
