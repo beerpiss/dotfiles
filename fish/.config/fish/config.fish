@@ -112,3 +112,5 @@ end
 function ayy
     echo "ayy lmao" | figlet | lolcat
 end
+
+starship init fish | source
