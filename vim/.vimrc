@@ -16,6 +16,7 @@ call plug#begin(expand('~/.vim/plugged'))
     Plug 'vimwiki/vimwiki'
     Plug 'preservim/nerdtree'
     Plug 'rust-lang/rust.vim'
+    Plug 'cespare/vim-toml'
 call plug#end()
 
 " Syntastic
