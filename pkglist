@@ -254,6 +254,7 @@ mercurial
 meson
 mkinitcpio-nfs-utils
 mlocate
+modprobed-db
 mono
 mplayer
 mpv
