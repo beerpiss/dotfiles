@@ -229,6 +229,7 @@ linux-headers
 linux-tkg-bmq
 linux-tkg-bmq-headers
 linux-tkg-bmq-skylake
+linux-tkg-bmq-skylake-headers
 linux-zen
 linux-zen-headers
 llvm
