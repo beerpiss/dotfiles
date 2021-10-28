@@ -226,6 +226,8 @@ linux
 linux-atm
 linux-firmware
 linux-headers
+linux-tkg-bmq
+linux-tkg-bmq-headers
 linux-zen
 linux-zen-headers
 llvm
