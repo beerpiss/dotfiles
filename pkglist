@@ -203,6 +203,8 @@ lib32-ocl-icd
 lib32-openal
 lib32-v4l-utils
 lib32-vulkan-icd-loader
+lib32-vulkan-intel
+lib32-vulkan-radeon
 libatomic_ops
 libconfig
 libcurl-compat
