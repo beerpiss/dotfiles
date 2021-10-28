@@ -105,6 +105,7 @@ flex
 fontforge
 fortune-mod
 fprintd
+freshfetch-bin
 fsarchiver
 galculator
 garcon
@@ -219,6 +220,7 @@ light-locker
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 lighttpd
+linux
 linux-atm
 linux-firmware
 linux-headers
@@ -267,6 +269,7 @@ ndisc6
 nekofetch
 neofetch
 neovim
+nerd-fonts-complete-starship
 net-tools
 netctl
 network-manager-applet
@@ -400,6 +403,7 @@ spotify
 ssg
 sshfs
 sshpass
+starship
 stfl
 stow
 sudo
