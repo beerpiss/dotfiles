@@ -356,7 +356,6 @@ python-evdev
 python-hyperlink
 python-idna
 python-incremental
-python-injector
 python-lxml
 python-mako
 python-markupsafe
@@ -377,6 +376,7 @@ qt5-svg
 qt5-x11extras
 rclone
 refind
+refind-btrfs
 reflector
 reiserfsprogs
 rhythmbox
