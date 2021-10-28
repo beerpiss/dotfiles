@@ -52,6 +52,7 @@ cpio
 cpupower
 crda
 cronie
+cups
 dconf-editor
 deadbeef
 deadbeef-mpris2-plugin
@@ -72,6 +73,7 @@ docbook-xml
 docbook-xsl
 docker
 dos2unix
+dosbox
 dosfstools
 double-conversion
 doxygen
@@ -185,6 +187,22 @@ jsoncpp
 kdenlive
 kdesu
 leafpad
+lib32-alsa-lib
+lib32-alsa-plugins
+lib32-giflib
+lib32-gnutls
+lib32-gst-plugins-base-libs
+lib32-gtk3
+lib32-libpulse
+lib32-libva
+lib32-libxcomposite
+lib32-libxinerama
+lib32-libxslt
+lib32-mpg123
+lib32-ocl-icd
+lib32-openal
+lib32-v4l-utils
+lib32-vulkan-icd-loader
 libatomic_ops
 libconfig
 libcurl-compat
@@ -395,6 +413,7 @@ rust
 rust-docs
 s-nail
 s-tui
+samba
 sassc
 sddm
 sdparm
@@ -412,6 +431,8 @@ ssg
 sshfs
 sshpass
 starship
+steam
+steam-fonts
 stfl
 stow
 sudo
@@ -463,6 +484,8 @@ vulkan-radeon
 wget
 which
 whois
+wine-staging
+winetricks
 wireless-regdb
 wireless_tools
 woeusb
