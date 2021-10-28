@@ -79,6 +79,7 @@ intel_uncore
 intel_xhci_usb_role_switch
 ipheth
 ip_tables
+ipt_REJECT
 irqbypass
 isofs
 iTCO_vendor_support
@@ -111,6 +112,7 @@ nf_defrag_ipv4
 nf_defrag_ipv6
 nf_nat
 nfnetlink
+nf_reject_ipv4
 nf_tables
 nft_chain_nat
 nft_compat
@@ -196,5 +198,7 @@ xhci_pci_renesas
 xor
 x_tables
 xt_addrtype
+xt_CHECKSUM
 xt_conntrack
 xt_MASQUERADE
+xt_tcpudp
