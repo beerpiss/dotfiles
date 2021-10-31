@@ -215,7 +215,6 @@ libdvdcss
 libebml
 libev
 libgdiplus
-libglade
 libgsf
 libgtop
 libimagequant
@@ -372,7 +371,6 @@ proton-ge-custom
 psensor
 pulseaudio-alsa
 pv
-pygtk
 python-anytree
 python-attrs
 python-automat
@@ -399,8 +397,6 @@ python-rencode
 python-setproctitle
 python-twisted
 python-yaml
-python2-cairo
-python2-gobject2
 python2-psutil
 qemu
 qt5-svg
@@ -555,6 +551,7 @@ yay
 youtube-dl
 yt-dlp
 zalo-nativefier
+zenmap
 zoom
 zscroll-git
 zsh
