@@ -30,6 +30,7 @@ blueberry
 blueman
 bluez
 bluez-utils
+boost
 brave-bin
 btrfs-progs
 capitaine-cursors
@@ -50,6 +51,7 @@ compsize
 corefreq-client-git
 cowsay
 cpio
+cpprestsdk
 cpupower
 crda
 cronie
