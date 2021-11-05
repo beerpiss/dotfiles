@@ -334,6 +334,7 @@ openssh
 openvpn
 os-prober
 otf-cascadia-code
+otf-font-awesome
 pacman-contrib
 pamixer
 parted
@@ -424,6 +425,7 @@ s-nail
 s-tui
 samba
 sassc
+screenfetch
 sddm
 sdparm
 sg3_utils
@@ -499,6 +501,7 @@ wine-staging
 winetricks
 wireless-regdb
 wireless_tools
+wmctrl
 woeusb
 wpa_supplicant
 wvdial
