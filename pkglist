@@ -26,6 +26,7 @@ beets
 bind
 binutils
 bison
+blobsaver-bin
 blueberry
 blueman
 bluez
@@ -334,7 +335,6 @@ openssh
 openvpn
 os-prober
 otf-cascadia-code
-otf-font-awesome
 pacman-contrib
 pamixer
 parted
@@ -501,7 +501,6 @@ wine-staging
 winetricks
 wireless-regdb
 wireless_tools
-wmctrl
 woeusb
 wpa_supplicant
 wvdial
