@@ -71,6 +71,7 @@ abbr osu-lazer "DRI_PRIME=1 ~/Games/osu-lazer/osu.AppImage"
 abbr ardublockly "python3 ~/Downloads/git/ardublockly/start.py"
 
 abbr external-monitor "xrandr --output HDMI1 --scale 0.711x0.711 --same-as eDP1"
+
 # Abbreviations for config files (cf*)
 abbr cfa "$EDITOR $HOME/.config/alacritty/alacritty.yml ;and commit-if-diff"
 abbr cffsh "$EDITOR $HOME/.config/fish/config.fish ;and commit-if-diff; and source $HOME/.config/fish/config.fish"
@@ -86,6 +87,9 @@ abbr cfnv "$EDITOR $HOME/dotfiles/nvim/.config/nvim/init.vim ;and commit-if-diff
 
 # abbreviations for saving shsh2 blobs
 abbr saveblobs "tsschecker -d iPhone10,5 -B d211ap -e 0xc646c2468402e -g 0x1111111111111111 -l -s --save-path ~/Documents/beerpsi-iphone-blobs"
+
+# abbreviation for termbin
+abbr tb "nc termbin.com 9999"
 
 # Launch an application using the dedicated GPU and disown the process
 function dgpu
