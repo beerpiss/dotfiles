@@ -353,6 +353,7 @@ perl-mime-tools
 perl-net-smtp-ssl
 perl-net-ssleay
 perl-types-serialiser
+pfetch
 php-cgi
 php-sqlite
 picard
