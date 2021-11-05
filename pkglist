@@ -417,6 +417,7 @@ rofimoji
 rp-pppoe
 rsync
 ruby
+rufetch
 rust
 rust-docs
 s-nail
@@ -482,6 +483,7 @@ upower
 usb_modeswitch
 usbfluxd
 usbutils
+uwufetch
 vi
 vim
 virt-manager
